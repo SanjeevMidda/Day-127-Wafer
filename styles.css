@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.top, .bottom{
+    display: flex;
+}
+
+.one, .two, .three, .four{
+    display: flex;
+    flex: 1;
+    border: 1px solid black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.two .circle{
+    background-color: orange;
+}
+
+.three .circle{
+    background-color: orange;
+}
